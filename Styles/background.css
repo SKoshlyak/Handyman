@@ -1,0 +1,40 @@
+.background-image{
+  display:flex;
+}
+
+.background-image img{
+  /*background-image: url("/Backgrounds/Dream Team.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;*/
+  width:100%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+}
+
+.background-text{
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  Font-size: 30px;
+  color: rgba(0, 9, 180, 0.734);
+  z-index: 2;
+}
+.header1{
+  position: relative;
+  z-index: 2;
+}
+
+.header3{
+  position: relative;
+  z-index: 2;
+}
+
+#content-id:hover{
+  opacity:0.1;
+  transition-duration: 1s;
+}

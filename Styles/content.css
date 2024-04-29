@@ -1,0 +1,42 @@
+
+.grid-cell{
+  margin-top:55px;
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  z-index: 3;
+}
+
+
+.cell-header-box{
+  width: 600px;
+  display:inline-block;
+  position:relative;
+  z-index: 3;
+}
+
+.carousel-box{
+  display:inline-block;
+  height: 500px;
+}
+.cell-text-box{
+  width: 600px;
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+}
+
+.cell-text{
+  font-size: 20px;
+  z-index: 3;
+  text-align: center;
+  color: rgb(203, 47, 12);
+}
+
+.cell-header{
+  font-size: 40px;
+  color: rgb(203, 47, 12);
+  z-index: 3;
+  text-align:center;
+}
