@@ -1,0 +1,60 @@
+.grid-content{
+  display:flexbox;
+  flex-direction:column;
+  margin-top:800px;
+}
+
+.grid-cell{
+  margin-top:55px;
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  z-index: 3;
+}
+
+
+.cell-header-box{
+  width: 600px;
+  display:inline-block;
+  position:relative;
+  z-index: 3;
+}
+
+.carousel-box{
+  display:inline-block;
+  height: 500px;
+}
+.cell-text-box{
+  width: 600px;
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+}
+
+.cell-text{
+  font-size: 20px;
+  z-index: 3;
+  text-align: center;
+  color: white;
+}
+
+.cell-header{
+  font-size: 60px;
+  color: white;
+  z-index: 3;
+  text-align:center;
+}
+
+.carousel-box:hover{
+  height: 625px;
+  transition: 0.5s;
+}
+
+.cell-text:hover{
+  background-color: rgba(20,20,20,0.8);
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  transition: 0.3s;
+}

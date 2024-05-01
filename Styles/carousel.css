@@ -1,0 +1,55 @@
+.carousel {
+  align-items:center;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  position: relative;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.carousel img{
+  height:480px;
+  width:100%;
+  scroll-snap-align: center;
+  margin-left:20px;
+  border-style: solid;
+  border-color: rgba(200,200,200,0.6);
+  border-radius: 20px;
+}
+
+::-webkit-scroll-bar {
+  width:10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+.carousel:hover{
+  height:625px;
+  transition:0.5s;
+}
+
+.carousel img:hover{
+  height: 600px;
+  transition: 0.5s;
+}
